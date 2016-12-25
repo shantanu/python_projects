@@ -1,3 +1,5 @@
+"""A class to model a user"""
+
 class User():
 	"""Making a simple user"""
 	def __init__(self, first_name, last_name, age):
@@ -23,21 +25,3 @@ class User():
 	def reset_login_attempts(self):
 		self.login_attempts = 0
 	
-user_1 = User("Shantanu", "Laghate", 18)
-# user_1.describe_user()
-# user_1.greet_user()
-
-user_1.increment_login_attempts()
-user_1.get_login_attempts()
-
-user_1.increment_login_attempts()
-user_1.get_login_attempts()
-
-user_1.increment_login_attempts()
-user_1.get_login_attempts()
-
-user_1.increment_login_attempts()
-user_1.get_login_attempts()
-
-user_1.reset_login_attempts()
-user_1.get_login_attempts()
