@@ -1,0 +1,5 @@
+In Python you can make lists
+In Python you can do math
+In Python you can analyze data
+In Python you can make websites
+In Python you can do many more things
